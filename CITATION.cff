@@ -11,3 +11,6 @@ authors:
     email: jbassle1@uab.edu
     affiliation: University of Alabama at Birmigham
     orcid: 'https://orcid.org/0000-0003-2277-9388'
+repository: 'https://github.com/JRBassler/eHARS-Simulation'
+version: 1.1.0
+date-released: '2022-04-11'
