@@ -23,22 +23,28 @@ The code and materials provided here are designed to match - naming conventions,
 ### Process
 The code is designed to be run in the following order:
 
-01.     eHARS Data Simulation v2.1
+"01.     eHARS Data Simulation v2.1"
         -     Creates eHARS variables, that are in part, to be used for testing Road to Zero project code. Output includes synthetic data sets that match eHARS data                 sets.
-02.     eHARS Data Management - Viral Suppression v1.1
+"02.     eHARS Data Management - Viral Suppression v1.1"
         -     Organizes the synthetic eHARS data set into a analysis data set; again, for the specific needs of the Road to Zero Project. Specifically, a variables                   that are not in eHARS, include the date that a PWH first becomes virally supressed, and the time (in days) between the date a PWH is diagnosed with HIV                 and the date they become virally suppressed. The attached code uses Alabama as a sample, but would be re-run, after changing the state global macro to                 complete data management specific to other states. Other states included are Louisiana and Mississippi.
-03.     RTZ Formats and Macros v1.1
+"03.     RTZ Formats and Macros v1.1"
         -      This is only necessary if the sample analysis (04) is ran.
-04.     RTZ Descriptive Analysis v1.1
+"04.     RTZ Descriptive Analysis v1.1"
         -      Sample survival analysis of the synthetic data set
         -      Event: Viral suppression
         -      Time: Days between HIV diagnosis and Viral Suppression
         -      Censoring: Death, missing dates, elite controller, or survial time estimate is not possible
 
+### Steps
+
 Step 1: Download all of the files and save to a directory that will be referenced/added to the programs themselves in order for the code to be run and save data sets.
+
 Step 2: If states, other than Alabama, Mississippi, and Louisiana are intended to be used, use "00.    Address Data" and update accordingly to satisfy your needs.             Additional changes would be needed to be made in the subsquent programs to accurately simulate geographic varibles. 
+
 Step 3: Run all programs in succession, but take care to replace global variables; specifically, the variables that correspond with the locations of the saved code.
-Step 4: Please contact if you have any questions
+
+Step 4: Please contact if you have any questions, comments, or suggestions!
+
 
 
 
