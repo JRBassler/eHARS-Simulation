@@ -3,18 +3,10 @@ message: If you use this software, please cite it using these metadata.
 title: My Research Software
 abstract: This is my awesome research software. It does many things.
 authors:
-  - family-names: Druskat
-    given-names: Stephan
-    orcid: "https://orcid.org/0000-0003-4925-7248"
-  - name: "The Research Software project"
+  - family-names: Bassler
+    given-names: John
+    orcid: "https://orcid.org/0000-0003-2277-9388"
+  - name: "eHARS Data Simulation"
 version: 0.11.2
-date-released: "2021-07-18"
-identifiers:
-  - description: This is the collection of archived snapshots of all versions of My Research Software
-    type: doi
-    value: "10.5281/zenodo.123456"
-  - description: This is the archived snapshot of version 0.11.2 of My Research Software
-    type: doi
-    value: "10.5281/zenodo.123457"
-license: Apache-2.0
+date-released: "2022-11-04"
 repository-code: "https://github.com/citation-file-format/my-research-software"
