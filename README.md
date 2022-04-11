@@ -1,22 +1,22 @@
-# Road-to-Zero
-## Simulation of eHARS data
 
-### Overview
+# Simulation of eHARS data
+
+## Overview
 The success of Ending the HIV Epidemic: A Plan for America or (EHE) will depend on innovative, targeted, population specific interventions. Achieving early and sustained viral suppression following diagnosis of HIV infection is critical to improving outcomes for persons living with HIV and reducing transmission.  A deeper understanding of the socio-contextual factors driving geographic variability of VS can also guide the development of evidence-informed public health approaches to achieve timely individual and population viral control. This simulation is designed to randomly create realistic geographic components that could exist in eHARS data for each state, while accounting for the variability in this data that occurs over time. The simulated data created in the program can allow for researchers to troubleshoot development of analytic methods, while reducing the time needed from their public health department partners.
 
-### Purpose: Advancing collaboration between academia and state health departments to end the HIV epidemic in the Deep South
-More details on the our current National Institute of Allergy and Infectious Diseases-funded study, Road to Zero (R01AI142690), and the detailed process to create the synthetic data set our simulation creates is available here:
+## Purpose: Advancing collaboration between academia and state health departments to end the HIV epidemic in the Deep South
+More details on the our current National Institute of Allergy and Infectious Diseases-funded study, Road to Zero (R01AI142690), and the process to create the synthetic data set our simulation creates is available here:
 
 
 
-### eHARS Data
+## eHARS Data
 Public health agencies collect and maintain the CDC-developed Enhanced HIV/AIDS Reporting System (eHARS) which contains this information. eHARS is a standardized document-based surveillance database used by state health departments to collect and manage case reports, lab reports, and other documentation on persons with HIV (PWH) and subsequently report to the CDC. The following link will direct you to more materials about eHARS and the HIV Surveillance Supplemental Reports.
 
 https://www.cdc.gov/hiv/library/reports/hiv-surveillance.html
 
 
 
-### Simulation
+## Simulation
 The code and materials provided here are designed to match - naming conventions, variable formatting, variable length, and possible values of eHARS data. The synthetic data set that is created in this code is entirely simulated and does not match any information of actual PWH in the states that are used in the simulation. The code has been commented throughout its implementation and is reguraly updated. 
 
 
