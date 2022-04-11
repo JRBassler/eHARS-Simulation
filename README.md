@@ -30,8 +30,8 @@ The code is designed to be run in the following order:
 "02.     eHARS Data Management - Viral Suppression v1.1"
 
         -     Organizes the synthetic eHARS data set into a analysis data set; again, for the specific needs of the Road to Zero Project. 
-        -     Specifically, a variables that are not in eHARS, include the date that a PWH first becomes virally supressed, and the time (in days) between the date a                 PWH is diagnosed with HIV and the date they become virally suppressed. 
-        -     The attached code uses Alabama as a sample, but would be re-run, after changing the state global macro to complete data management specific to other                   states. 
+        -     Specifically, a variables that are not in eHARS, include the date that a PWH first becomes virally supressed, and the time (in days) between the datea PWH is diagnosed with HIV and the date they become virally suppressed. 
+        -     The attached code uses Alabama as a sample, but would be re-run, after changing the state global macro to complete data management specific to other states. 
         -     Other states included are Louisiana and Mississippi.
 "03.     RTZ Formats and Macros v1.1"
 
