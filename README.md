@@ -19,6 +19,9 @@ https://www.cdc.gov/hiv/library/reports/hiv-surveillance.html
 ## Simulation
 The code and materials provided here are designed to match - naming conventions, variable formatting, variable length, and possible values of eHARS data. The synthetic data set that is created in this code is entirely simulated and does not match any information of actual PWH in the states that are used in the simulation. The code has been commented throughout its implementation and is reguraly updated. 
 
+## Geographic Data
+For the purposes of the Road to Zero analysis, a geographic component is necessary to conduct spatial analysis. Simulated addresses are created using the GeoNames Postal Code dataset. The main GeoNames gazetteer data extract is here: http://download.geonames.org/export/dump/. The "address_sim" data set includes geocoded addresses for Alabama, Mississippi, and Louisiana, based on the formentioned data. 
+
 
 ### Process
 The code is designed to be run in the following order:
