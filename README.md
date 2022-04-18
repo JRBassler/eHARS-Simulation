@@ -37,7 +37,7 @@ The code is designed to be run in the following order:
         -     Other states included are Louisiana and Mississippi
 "03.     eHARS Formats and Analysis Macros v1.1"
 
-        -      This is only necessary if the sample analysis (04.     eHARS Descriptive Analysis v#.#) is ran
+        -      This is only necessary if the sample analysis (04. eHARS Descriptive Analysis v#.#) is ran
         -      The macros conduct basic survival analysis using PROC LIFETEST and PROC PHREG
 "04.     eHARS Descriptive Analysis v1.1"
 
