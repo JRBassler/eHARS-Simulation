@@ -35,10 +35,10 @@ The code is designed to be run in the following order:
         -     Specifically, a variables that are not in eHARS, include the date that a PWH first becomes virally suppressed, and the time (in days) between the date a PWH is diagnosed with HIV and the date they become virally suppressed. 
         -     The attached code uses Alabama as a sample, but would be re-run, after changing the state global macro to complete data management specific to other states. 
         -     Other states included are Louisiana and Mississippi.
-"03.     RTZ Formats and Macros v1.1"
+"03.     eHARS Formats and Analysis Macros v1.1"
 
         -      This is only necessary if the sample analysis (04) is ran.
-"04.     RTZ Descriptive Analysis v1.1"
+"04.     eHARS Descriptive Analysis v1.1"
 
         -      Sample survival analysis of the synthetic data set
         -      Event: VS
