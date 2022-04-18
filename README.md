@@ -26,16 +26,20 @@ For the purposes of the Road to Zero analysis, a geographic component is necessa
 The code is designed to be run in the following order:
 
 "01.     eHARS Data Simulation v1.1"
+
         -     Creates eHARS variables, that are in part, to be used for testing Road to Zero project code
         -     Output includes synthetic data sets that match eHARS data sets.
 "02.     eHARS Data Management - Viral Suppression v1.1"
+
         -     Organizes the synthetic eHARS data set into a analysis data set; again, for the specific needs of the Road to Zero Project. 
         -     Specifically, a variables that are not in eHARS, include the date that a PWH first becomes virally suppressed, and the time (in days) between the date a PWH is diagnosed with HIV and the date they become virally suppressed. 
         -     The attached code uses Alabama as a sample, but would be re-run, after changing the state global macro to complete data management specific to other states. 
         -     Other states included are Louisiana and Mississippi.
 "03.     RTZ Formats and Macros v1.1"
+
         -      This is only necessary if the sample analysis (04) is ran.
 "04.     RTZ Descriptive Analysis v1.1"
+
         -      Sample survival analysis of the synthetic data set
         -      Event: VS
         -      Time: Days between HIV diagnosis and VS
